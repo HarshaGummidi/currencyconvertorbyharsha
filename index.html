@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Convertor</h1>
+        <form action="">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input value="1" type="text"  class="input" id="input1">
+            </div>
+            <div class="country">
+                <div class="from">
+                    <p>FROM</p>
+                    <div class="selcon">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        <select name="from">
+                            <option value="USD">USD</option>
+                            <option value="INR">INR</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+                <div class="to">
+                    <p>TO</p>
+                    <div class="selcon">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                        <select name="to">
+                            <option value="USD">USD</option>
+                            <option value="INR">INR</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg"></div> 
+            <button class="input" id="output">Convert</button>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
